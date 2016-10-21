@@ -8,4 +8,28 @@
    str_word_count(variable); 
    eg: str_word_count($text);
 
-3. 
+3. searching in a text
+   stripos($haystack, $needle), returns position of occurence of the string.
+   eg: stripos($text, $key);
+
+4. choping word from text
+   chop($variable, "key")
+   eg: chop($text, "code");
+
+5. using linux commands in php
+   exec()
+   eg: exec('php -v', $response);
+
+8. array management
+   array_push($variable,"entry1","entry2","entry3"); Pushing new entries into array
+   array_unique($array); Removing duplicates
+   sort($array); Sorting array. Sort cannot be equated to variable.
+   count($array); Total elements in an array.
+
+9. array functions
+   array_sum($array); Calculates sum of array elements
+   max(), min()
+   array_slice ($array, $offset, $length); eg: array_slice($modified_marks, 0, 5); 
+
+10. command line arguments
+   eg: echo "Name: $argv[1] \nEmployee Id: $argv[2] \n";
