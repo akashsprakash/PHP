@@ -1,0 +1,11 @@
+		5
+---------------------
+1. type cast 
+   (type) $variable ;
+   eg: (int) $input
+
+2. counting words in a text
+   str_word_count(variable); 
+   eg: str_word_count($text);
+
+3. 
