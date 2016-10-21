@@ -1,3 +1,24 @@
+        4
+---------------------
+4. number of substring occurences
+   substr_count($string, "key");
+   eg: substr_count($input, "r");
+
+5. Wraping string to a given number of characters
+   wordwrap();
+   eg: wordwrap($input, 2, ":", true);
+
+7. Spiting sting by regular expression.
+   preg_split();
+   eg: preg_split("(@)", $mailid);
+
+8. Replacing a word from text.
+   preg_replace('/the/','That',$input, $count);
+
+9  Comparing changes in two strings: Returns position of first change.
+   strspn($string1,$string2);
+
+
 		5
 ---------------------
 1. type cast 
