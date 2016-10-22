@@ -1,4 +1,4 @@
-        4
+         4
 ---------------------
 4. number of substring occurences
    substr_count($string, "key");
@@ -19,8 +19,8 @@
    strspn($string1,$string2);
 
 
-		5
----------------------
+	   	5
+-----------------------
 1. type cast 
    (type) $variable ;
    eg: (int) $input
@@ -44,7 +44,7 @@
 8. array management
    array_push($variable,"entry1","entry2","entry3"); Pushing new entries into array
    array_unique($array); Removing duplicates
-   sort($array); Sorting array. Sort cannot be equated to variable.
+   sort($array); Sorting array. SORT cannot be equated to variable.
    count($array); Total elements in an array.
 
 9. array functions
@@ -54,3 +54,36 @@
 
 10. command line arguments
    eg: echo "Name: $argv[1] \nEmployee Id: $argv[2] \n";
+
+
+         6
+-------------------------
+1. Reversing array elements
+   array_reverse($array)
+
+2. Sorting and printing array by key-value
+   array created as array( "key"=>"value")
+   sorting by key: ksort($array)
+   accessing by key-value: foreach ($array as $key => $value)
+
+3. Removing array element
+   array_search('search', $array);  Returns the position of search
+   unset($color[$position]); colour-array, position- index
+   array_splice($color,$position,1);
+
+5. Sorting associative array
+   key: ascending- ksort, dscending- krsort
+   value: ascending- sort, dscending- rsort
+
+6. Merging array
+   array_merge
+
+7. Upper case- Lower case conversion in array
+   array_map(): to map user defined function in array. String functions canbe performed in array by mapping.
+   array_map('strtoupper',$array)- for uppercase conversion in array
+
+8. Generating random number within range
+   rand()
+
+9. Decoding base64 encoded string
+   base64_decode($string)
